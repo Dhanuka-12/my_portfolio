@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dhanuka Wijesinghe | Aspiring Data Scientist</title>
+
+    <meta
+        name="description"
+        content="Portfolio of Dhanuka Wijesinghe, an aspiring Data Scientist and Machine Learning enthusiast."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+        <div class="container nav-container">
+
+            <a href="#home" class="logo">
+                DW<span>.</span>
+            </a>
+
+            <nav id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#journey" class="nav-link">Journey</a>
+                <a href="#life" class="nav-link">Life</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="cv.pdf" target="_blank" class="cv-nav-btn">
+                    <i class="fa-regular fa-file-lines"></i>
+                    CV
+                </a>
+
+                <button id="menu-toggle" class="menu-toggle" aria-label="Open menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+
+        <section id="home" class="hero">
+
+            <div class="hero-grid"></div>
+
+            <div class="container hero-container">
+
+                <div class="hero-content reveal">
+
+                    <div class="availability">
+                        <span class="status-dot"></span>
+                        Currently learning & building
+                    </div>
+
+                    <p class="hero-small">
+                        HELLO, I'M
+                    </p>
+
+                    <h1>
+                        Dhanuka<br>
+                        <span>Wijesinghe.</span>
+                    </h1>
+
+                    <h2>
+                        Aspiring Data Scientist
+                        <span>|</span>
+                        Machine Learning
+                    </h2>
+
+                    <p class="hero-description">
+                        An ICT undergraduate passionate about working with
+                        data, discovering patterns, and building intelligent
+                        solutions through machine learning.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn primary-btn">
+                            Explore My Work
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="cv.pdf" target="_blank" class="btn secondary-btn">
+                            <i class="fa-regular fa-file-lines"></i>
+                            View CV
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+
+                        <a
+                            href="https://github.com/"
+                            target="_blank"
+                            aria-label="GitHub"
+                        >
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a
+                            href="https://www.linkedin.com/in/dhanuka-wijesinghe-48264a277/"
+                            target="_blank"
+                            aria-label="LinkedIn"
+                        >
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+
+                        <a
+                            href="mailto:danukaupendra@gmail.com"
+                            aria-label="Email"
+                        >
+                            <i class="fa-regular fa-envelope"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-visual reveal">
+
+                    <div class="profile-wrapper">
+
+                        <div class="profile-ring ring-one"></div>
+                        <div class="profile-ring ring-two"></div>
+
+                        <div class="profile-card">
+
+                            <img
+                                src="images/profile.jpg"
+                                alt="Dhanuka Wijesinghe"
+                                class="profile-image"
+                                onerror="this.style.display='none'; document.getElementById('profile-placeholder').style.display='flex';"
+                            >
+
+                            <div
+                                id="profile-placeholder"
+                                class="profile-placeholder"
+                            >
+                                <i class="fa-solid fa-user"></i>
+                                <span>Add Profile Photo</span>
+                            </div>
+
+                        </div>
+
+
+                        <!-- Floating Data Cards -->
+
+                        <div class="floating-card card-python">
+                            <i class="fa-brands fa-python"></i>
+                            <div>
+                                <strong>Python</strong>
+                                <small>Data & ML</small>
+                            </div>
+                        </div>
+
+                        <div class="floating-card card-ml">
+                            <i class="fa-solid fa-brain"></i>
+                            <div>
+                                <strong>ML</strong>
+                                <small>Learning</small>
+                            </div>
+                        </div>
+
+                        <div class="floating-card card-data">
+                            <i class="fa-solid fa-chart-line"></i>
+                            <div>
+                                <strong>Data</strong>
+                                <small>Patterns</small>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="scroll-indicator">
+                <span>SCROLL</span>
+                <i class="fa-solid fa-arrow-down"></i>
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section id="about" class="section">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-number">01</span>
+                    <div>
+                        <p class="eyebrow">GET TO KNOW ME</p>
+                        <h2>About Me</h2>
+                    </div>
+                </div>
+
+
+                <div class="about-grid">
+
+                    <div class="about-text reveal">
+
+                        <p class="large-text">
+                            I'm an undergraduate student pursuing a
+                            <strong>Bachelor of Information and Communication
+                            Technology</strong> at the
+                            <strong>University of Vavuniya</strong>.
+                        </p>
+
+                        <p>
+                            I'm interested in the world of data science and
+                            machine learning. I enjoy exploring data,
+                            understanding patterns, and turning ideas into
+                            practical solutions.
+                        </p>
+
+                        <p>
+                            I'm currently building my knowledge step by step,
+                            working on small projects and learning how
+                            machine learning can be applied to real-world
+                            problems.
+                        </p>
+
+                        <div class="about-details">
+
+                            <div>
+                                <span>Education</span>
+                                <strong>BICT Undergraduate</strong>
+                            </div>
+
+                            <div>
+                                <span>University</span>
+                                <strong>University of Vavuniya</strong>
+                            </div>
+
+                            <div>
+                                <span>Graduation</span>
+                                <strong>2028</strong>
+                            </div>
+
+                            <div>
+                                <span>Focus</span>
+                                <strong>Data Science & ML</strong>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="about-code reveal">
+
+                        <div class="code-window">
+
+                            <div class="code-header">
+                                <div class="window-dots">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                                <span>about_me.py</span>
+                            </div>
+
+                            <div class="code-body">
+
+                                <p>
+                                    <span class="keyword">class</span>
+                                    <span class="class-name">DataScientist</span>:
+                                </p>
+
+                                <p class="indent">
+                                    <span class="keyword">def</span>
+                                    <span class="function">__init__</span>(self):
+                                </p>
+
+                                <p class="double-indent">
+                                    self.name =
+                                    <span class="string">"Dhanuka"</span>
+                                </p>
+
+                                <p class="double-indent">
+                                    self.goal =
+                                    <span class="string">"Data Scientist"</span>
+                                </p>
+
+                                <p class="double-indent">
+                                    self.learning =
+                                    <span class="string">"Machine Learning"</span>
+                                </p>
+
+                                <p class="double-indent">
+                                    self.interests =
+                                    <span class="string">"Data & Patterns"</span>
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section id="skills" class="section section-dark">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-number">02</span>
+
+                    <div>
+                        <p class="eyebrow">WHAT I WORK WITH</p>
+                        <h2>Skills</h2>
+                    </div>
+                </div>
+
+
+                <div class="skills-grid">
+
+                    <div class="skill-card reveal">
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-python"></i>
+                        </div>
+
+                        <h3>Python</h3>
+
+                        <p>
+                            Programming, data analysis and machine learning.
+                        </p>
+
+                        <div class="skill-line">
+                            <span></span>
+                        </div>
+                    </div>
+
+
+                    <div class="skill-card reveal">
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-java"></i>
+                        </div>
+
+                        <h3>Java</h3>
+
+                        <p>
+                            Object-oriented programming and application
+                            development.
+                        </p>
+
+                        <div class="skill-line">
+                            <span></span>
+                        </div>
+                    </div>
+
+
+                    <div class="skill-card reveal">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+
+                        <h3>SQL</h3>
+
+                        <p>
+                            Working with databases, queries and structured
+                            data.
+                        </p>
+
+                        <div class="skill-line">
+                            <span></span>
+                        </div>
+                    </div>
+
+
+                    <div class="skill-card reveal">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-robot"></i>
+                        </div>
+
+                        <h3>Machine Learning</h3>
+
+                        <p>
+                            Currently learning algorithms, models and
+                            predictive techniques.
+                        </p>
+
+                        <div class="skill-line">
+                            <span></span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="tech-strip reveal">
+
+                    <span>PYTHON</span>
+                    <i></i>
+                    <span>JAVA</span>
+                    <i></i>
+                    <span>SQL</span>
+                    <i></i>
+                    <span>MACHINE LEARNING</span>
+                    <i></i>
+                    <span>DATA SCIENCE</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section id="projects" class="section">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-number">03</span>
+
+                    <div>
+                        <p class="eyebrow">THINGS I'VE BUILT</p>
+                        <h2>Projects</h2>
+                    </div>
+                </div>
+
+
+                <div class="projects-list">
+
+                    <!-- Project 1 -->
+
+                    <article class="project-card reveal">
+
+                        <div class="project-number">01</div>
+
+                        <div class="project-content">
+
+                            <div class="project-top">
+                                <span>AI / AUTOMATION</span>
+
+                                <a
+                                    href="#"
+                                    class="project-arrow"
+                                    aria-label="Project link"
+                                >
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+
+                            <h3>WhatsApp AI Chatbot</h3>
+
+                            <p>
+                                An AI-powered chatbot designed to interact
+                                with users through WhatsApp and provide
+                                intelligent responses.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>AI</span>
+                                <span>Chatbot</span>
+                                <span>API</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 2 -->
+
+                    <article class="project-card reveal">
+
+                        <div class="project-number">02</div>
+
+                        <div class="project-content">
+
+                            <div class="project-top">
+                                <span>MACHINE LEARNING</span>
+
+                                <a
+                                    href="#"
+                                    class="project-arrow"
+                                    aria-label="Project link"
+                                >
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+
+                            <h3>House Price Prediction</h3>
+
+                            <p>
+                                A machine learning project focused on
+                                predicting house prices using property
+                                features and historical data.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>ML</span>
+                                <span>Prediction</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 3 -->
+
+                    <article class="project-card reveal">
+
+                        <div class="project-number">03</div>
+
+                        <div class="project-content">
+
+                            <div class="project-top">
+                                <span>CLASSIFICATION</span>
+
+                                <a
+                                    href="#"
+                                    class="project-arrow"
+                                    aria-label="Project link"
+                                >
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+
+                            <h3>Iris Flower Recognizer</h3>
+
+                            <p>
+                                A simple machine learning classifier that
+                                identifies iris flower species from their
+                                measured characteristics.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>Classification</span>
+                                <span>ML</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= JOURNEY ================= -->
+
+        <section id="journey" class="section journey-section">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-number">04</span>
+
+                    <div>
+                        <p class="eyebrow">MY DIRECTION</p>
+                        <h2>Data Science Journey</h2>
+                    </div>
+                </div>
+
+
+                <div class="journey-content">
+
+                    <div class="journey-main reveal">
+
+                        <div class="journey-icon">
+                            <i class="fa-solid fa-chart-simple"></i>
+                        </div>
+
+                        <h3>
+                            From curiosity to
+                            <span>data-driven solutions.</span>
+                        </h3>
+
+                        <p>
+                            I'm an enthusiast working with data, patterns and
+                            predictions. My goal is to continuously improve
+                            my technical knowledge and eventually become a
+                            professional Data Scientist.
+                        </p>
+
+                    </div>
+
+
+                    <div class="timeline reveal">
+
+                        <div class="timeline-item">
+                            <span class="timeline-dot"></span>
+
+                            <div>
+                                <small>NOW</small>
+                                <h4>Building Foundations</h4>
+                                <p>
+                                    Strengthening Python, SQL and data
+                                    analysis skills.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="timeline-item">
+                            <span class="timeline-dot"></span>
+
+                            <div>
+                                <small>LEARNING</small>
+                                <h4>Machine Learning</h4>
+                                <p>
+                                    Exploring algorithms, models and
+                                    predictive techniques.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="timeline-item">
+                            <span class="timeline-dot"></span>
+
+                            <div>
+                                <small>2028</small>
+                                <h4>Graduate</h4>
+                                <p>
+                                    Complete my BICT degree at the
+                                    University of Vavuniya.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="timeline-item">
+                            <span class="timeline-dot"></span>
+
+                            <div>
+                                <small>GOAL</small>
+                                <h4>Data Scientist</h4>
+                                <p>
+                                    Build a career solving real-world
+                                    problems with data.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= LIFE / TABLE TENNIS ================= -->
+
+        <section id="life" class="section">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-number">05</span>
+
+                    <div>
+                        <p class="eyebrow">BEYOND THE SCREEN</p>
+                        <h2>A Little Beyond Data</h2>
+                    </div>
+                </div>
+
+
+                <div class="life-intro reveal">
+
+                    <p>
+                        Outside university and technology, I enjoy playing
+                        table tennis. It keeps me active, competitive and
+                        gives me a good balance from coding and studying.
+                    </p>
+
+                </div>
+
+
+                <!-- Replace these images with your own photos -->
+
+                <div class="gallery">
+
+                    <div class="gallery-item large reveal">
+
+                        <img
+                            src="images/table-tennis-1.jpg"
+                            alt="Dhanuka playing table tennis"
+                            onerror="this.style.display='none'; this.parentElement.classList.add('image-placeholder');"
+                        >
+
+                        <div class="gallery-placeholder">
+                            <i class="fa-solid fa-image"></i>
+                            <span>Add Photo</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="gallery-item reveal">
+
+                        <img
+                            src="images/table-tennis-2.jpg"
+                            alt="Dhanuka playing table tennis"
+                            onerror="this.style.display='none'; this.parentElement.classList.add('image-placeholder');"
+                        >
+
+                        <div class="gallery-placeholder">
+                            <i class="fa-solid fa-image"></i>
+                            <span>Add Photo</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="gallery-item reveal">
+
+                        <img
+                            src="images/table-tennis-3.jpg"
+                            alt="Dhanuka playing table tennis"
+                            onerror="this.style.display='none'; this.parentElement.classList.add('image-placeholder');"
+                        >
+
+                        <div class="gallery-placeholder">
+                            <i class="fa-solid fa-image"></i>
+                            <span>Add Photo</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CV ================= -->
+
+        <section class="cv-section">
+
+            <div class="container">
+
+                <div class="cv-card reveal">
+
+                    <div class="cv-icon">
+                        <i class="fa-regular fa-file-lines"></i>
+                    </div>
+
+                    <div class="cv-text">
+
+                        <p class="eyebrow">MY RESUME</p>
+
+                        <h2>Want to know more?</h2>
+
+                        <p>
+                            Take a look at my CV for my education, skills,
+                            experience and other details.
+                        </p>
+
+                    </div>
+
+                    <div class="cv-buttons">
+
+                        <a
+                            href="cv.pdf"
+                            target="_blank"
+                            class="btn primary-btn"
+                        >
+                            View CV
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a
+                            href="cv.pdf"
+                            download
+                            class="btn secondary-btn"
+                        >
+                            Download
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section id="contact" class="section contact-section">
+
+            <div class="container">
+
+                <div class="contact-content reveal">
+
+                    <p class="eyebrow">GET IN TOUCH</p>
+
+                    <h2>
+                        Let's connect<span>.</span>
+                    </h2>
+
+                    <p class="contact-description">
+                        I'm always interested in connecting with people
+                        interested in technology, data and machine learning.
+                    </p>
+
+
+                    <a
+                        href="mailto:danukaupendra@gmail.com"
+                        class="email-link"
+                    >
+                        danukaupendra@gmail.com
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+
+                    <div class="contact-socials">
+
+                        <a
+                            href="https://github.com/"
+                            target="_blank"
+                        >
+                            <i class="fa-brands fa-github"></i>
+                            GitHub
+                        </a>
+
+                        <a
+                            href="https://www.linkedin.com/in/dhanuka-wijesinghe-48264a277/"
+                            target="_blank"
+                        >
+                            <i class="fa-brands fa-linkedin"></i>
+                            LinkedIn
+                        </a>
+
+                        <a
+                            href="mailto:danukaupendra@gmail.com"
+                        >
+                            <i class="fa-regular fa-envelope"></i>
+                            Email
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="container footer-container">
+
+            <div class="footer-logo">
+                DW<span>.</span>
+            </div>
+
+            <p>
+                Designed & built by Dhanuka Wijesinghe
+            </p>
+
+            <p class="copyright">
+                © <span id="year"></span> Dhanuka Wijesinghe
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Back to top -->
+
+    <button id="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
