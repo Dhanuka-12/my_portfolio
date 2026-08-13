@@ -1,6 +1,4 @@
-/* =====================================================
-   MOBILE MENU
-===================================================== */
+
 
 const menuToggle = document.getElementById("menu-toggle");
 const navMenu = document.getElementById("nav-menu");
@@ -20,7 +18,6 @@ menuToggle.addEventListener("click", () => {
 });
 
 
-/* Close mobile menu when clicking a link */
 
 document.querySelectorAll(".nav-link").forEach(link => {
 
@@ -38,9 +35,6 @@ document.querySelectorAll(".nav-link").forEach(link => {
 });
 
 
-/* =====================================================
-   SCROLL REVEAL ANIMATION
-===================================================== */
 
 const revealElements = document.querySelectorAll(".reveal");
 
@@ -71,9 +65,7 @@ revealElements.forEach(element => {
 });
 
 
-/* =====================================================
-   ACTIVE NAVIGATION
-===================================================== */
+
 
 const sections = document.querySelectorAll("section[id]");
 const navLinks = document.querySelectorAll(".nav-link");
@@ -112,9 +104,6 @@ window.addEventListener("scroll", () => {
 });
 
 
-/* =====================================================
-   BACK TO TOP
-===================================================== */
 
 const backToTop = document.getElementById("back-to-top");
 
@@ -139,17 +128,12 @@ backToTop.addEventListener("click", () => {
 });
 
 
-/* =====================================================
-   CURRENT YEAR
-===================================================== */
 
 document.getElementById("year").textContent =
     new Date().getFullYear();
 
 
-/* =====================================================
-   SMALL PARALLAX EFFECT
-===================================================== */
+
 
 const heroGrid = document.querySelector(".hero-grid");
 
